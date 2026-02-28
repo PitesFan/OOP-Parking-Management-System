@@ -1,0 +1,5 @@
+4
+Masina B123XYZ 8 2 12 33
+Camion A356HGY 9 20 12 30
+Motocicleta F584RUT 12 50 16 15
+Bicicleta inexistent 16 50 20 22
