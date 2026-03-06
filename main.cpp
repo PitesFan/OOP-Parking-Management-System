@@ -27,7 +27,7 @@ public:
     }
 
     virtual ~Vehicul() {
-        cout<<"Distruge obiectul: "<<tip<<endl;
+        cout << "Distruge obiectul (clasa de baza): " << tip << endl;
     }
 
     void parkingTime() {
@@ -61,8 +61,8 @@ public:
         t, nr, oraOut, minOut, oraIn, minIn) {
     }
 
-    ~Masina () override {
-        cout<<"Distruge obiectul: "<<tip<<endl;
+    ~Masina() override {
+        cout << "Distruge obiectul (clasa derivata): " << tip << endl;
     }
 
     int tarif() override {
@@ -84,8 +84,8 @@ public:
                 int minIn) : Vehicul(t, nr, oraOut, minOut, oraIn, minIn) {
     }
 
-    ~Motocicleta() override{
-        cout<<"Distruge obiectul: "<<tip<<endl;
+    ~Motocicleta() override {
+        cout << "Distruge obiectul (clasa derivata): " << tip << endl;
     }
 
     int tarif() override {
@@ -108,8 +108,8 @@ public:
            int minIn) : Vehicul(t, nr, oraOut, minOut, oraIn, minIn) {
     }
 
-    ~Camion() override{
-        cout<<"Distruge obiectul: "<<tip<<endl;
+    ~Camion() override {
+        cout << "Distruge obiectul (clasa derivata): " << tip << endl;
     }
 
     int tarif() override {
@@ -132,8 +132,8 @@ public:
               int minIn) : Vehicul(t, nr, oraOut, minOut, oraIn, minIn) {
     }
 
-    ~Bicicleta() override{
-        cout<<"Distruge obiectul: "<<tip<<endl;
+    ~Bicicleta() override {
+        cout << "Distruge obiectul (clasa derivata): " << tip << endl;
     }
 
     int tarif() override {
